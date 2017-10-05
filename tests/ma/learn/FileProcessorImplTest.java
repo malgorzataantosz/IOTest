@@ -20,7 +20,7 @@ public class FileProcessorImplTest {
 
 	@Test
 	public void testReadIntoLines() {
-		String filename = "lorem";
+		String filename = "lorem.txt";
 		String filesDir = "files";
 		String inputPath = filesDir + File.separator + filename;
 		File inputFile = new File(inputPath);
